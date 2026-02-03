@@ -34,3 +34,45 @@ body {
 .nav-list a:hover {
   color: #fff;
 }
+
+/* MAIN */
+.main {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: #000;
+  background-image: url("images/programador.png");
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main h1 {
+  color: #fff;
+  font-size: 54px;
+}
+
+.main p {
+  font-size: 24px;
+  font-style: italic;
+  color: #1e96fc;
+  margin: 10px 0 35px 0;
+}
+
+.call-to-action {
+  background-color: #1e96fc;
+  color: #eee;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.call-to-action:hover {
+  background-color: #1578c4;
+}
