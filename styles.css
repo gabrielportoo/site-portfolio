@@ -62,7 +62,7 @@ body {
 }
 
 .call-to-action {
-  background-color: #1e96fc;
+  background-color: #035298;
   color: #eee;
   padding: 15px 25px;
   border: none;
@@ -71,8 +71,36 @@ body {
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
+  transition: 0.9s;
 }
 
 .call-to-action:hover {
   background-color: #1578c4;
+  transform: scale(1.1);
+}
+
+/* ABOUT SECTION */
+.about {
+  background-color: #eee;
+  width: 100%;
+  padding: 80px 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about div {
+  max-width: 50%;
+  padding-right: 40px;
+}
+
+.about img {
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+.about div h2 {
+  font-size: 32px;
+  margin-bottom: 14px;
 }
